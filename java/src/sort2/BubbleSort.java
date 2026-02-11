@@ -1,11 +1,8 @@
-/**
- * 
- */
 package sort2;
 import java.util.*;
 
 /**
- * @author Admin
+ * @author Flanlaina
  *
  */
 public class BubbleSort {
@@ -53,10 +50,10 @@ public class BubbleSort {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Enter the array size:");
 		Scanner sc = new Scanner(System.in);
 		int len = sc.nextInt();
+		sc.close();
 		array = new double[len];
 		for(int i = 0; i<len;i++) {
 			array[i] = Math.random();
@@ -74,7 +71,6 @@ public class BubbleSort {
 		System.out.println("Comparisons:" + comps);
 		System.out.println("Swaps:" + swaps);
 		System.out.println("Writes:" + writes);
-		sc.close();
 
 	}
 

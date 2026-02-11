@@ -3,7 +3,7 @@ package sort2;
 import java.util.*;
 
 /**
- * @author Admin
+ * @author Flanlaina
  *
  */
 public class GnomeSort {
@@ -56,6 +56,7 @@ public class GnomeSort {
 		System.out.println("Enter the array size:");
 		Scanner sc = new Scanner(System.in);
 		int len = sc.nextInt();
+		sc.close();
 		array = new double[len];
 		for(int i = 0; i<len;i++) {
 			array[i] = Math.random();
@@ -69,7 +70,6 @@ public class GnomeSort {
 		System.out.println("Swaps:" + swaps);
 		System.out.println("Writes:" + writes);
 		System.out.println("Estimated real time: " + time/1000000.0 + "ms");
-		sc.close();
 
 	}
 

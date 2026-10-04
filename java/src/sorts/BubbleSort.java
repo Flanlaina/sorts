@@ -45,10 +45,7 @@ public class BubbleSort {
             swap(array, i, randomIndex);
         }
 	}
-	
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		System.out.println("Enter the array size:");
 		Scanner sc = new Scanner(System.in);

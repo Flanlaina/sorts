@@ -6,7 +6,7 @@ import java.util.*;
  * @author Flanlaina
  *
  */
-public class GnomeSort {
+public class OptimizedGnomeSort {
 
 	/**
 	 * Main array.
@@ -38,8 +38,6 @@ public class GnomeSort {
 		writes += 2;
 	}
 
-
-	
     public static void smartGnomeSort(double[] array, int lowerBound, int upperBound) {
         int pos = upperBound;
         
